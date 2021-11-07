@@ -103,16 +103,16 @@ You don't need to change unless you want to redesign it. The codes are explained
 
 - `GradientDrawable`: A code for setting corner and stroke/inner border. Works for any View Components
 
-```java
-GradientDrawable gradientdrawable = new GradientDrawable();
-gradientdrawable.setCornerRadius(20); //Set corner
-gradientdrawable.setColor(Color.parseColor("#1C2A35")); //Set background color
-gradientdrawable.setStroke(1, Color.parseColor("#32cb00")); //Set border
+```kotlin
+        GradientDrawable gdMenuBody = GradientDrawable()
+        gdMenuBody.cornerRadius = MENU_CORNER
+        gdMenuBody.setColor(MENU_BG_COLOR)
+        gdMenuBody.setStroke(1, Color.parseColor("#32cb00"))
 ```
 
 Set the gradient drawable to the view component
 
-```java
+```kotlin
 [name of your view component].setBackground(gradientdrawable);
 ```
 
@@ -120,9 +120,9 @@ Set the gradient drawable to the view component
 
 I've added variables so you can find it easly to resize
 
-```java
-private final int MENU_WIDTH = 290;
-private final int MENU_HEIGHT = 200;
+```kotlin
+        var MENU_WIDTH = 290
+        var MENU_HEIGHT = 210
 ```
 
 Note: You may need to implement auto sizing due to many types of phone with different DPIs and resolutions
@@ -140,10 +140,16 @@ textView.setFontVariationSettings("'wdth' 150");
 
 This is for xml. Instead, create an instance for java and add view to your Layout
 
-```java
-TextView textView = new TextView(this);
-textView.setFontVariationSettings("'wdth' 150");
-LinearLayoutExample.addView(textView);
+```kotlin
+        TextView heading = TextView(this)
+        heading.ellipsize = TextUtils.TruncateAt.MARQUEE
+        heading.marqueeRepeatLimit = -1
+        heading.isSingleLine = true
+        heading.isSelected = true
+        heading.setTextColor(TEXT_COLOR)
+        heading.textSize = 10.0f
+        heading.gravity = Gravity.CENTER
+        heading.setPadding(0, 0, 0, 5)
 ```
 
 While we can't explain much here, you can use Google. Search like `create a textview programmatically android`, `create a button programmatically android` etc. for more infomation
