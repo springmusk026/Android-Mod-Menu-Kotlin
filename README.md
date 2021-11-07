@@ -9,7 +9,7 @@
 
 
 
-**MY WEBSITE (CLICK HERE)(https://muskmods.club)**
+**MY WEBSITE HERE(https://muskmods.club)**
 # Quick links
 - [Prerequisites](#prerequisites)
 - [What you need](#what-you-need)
