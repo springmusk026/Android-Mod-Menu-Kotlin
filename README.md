@@ -6,10 +6,10 @@
 
 **This won't cover how to mod games in general, hooking functions, etc that every other online tutorial already covers. This template simply tells you how to use them**
 
-**For Android mobile users who don't have a PC, please read [README-MOBILE.md](https://github.com/LGLTeam/Android-Mod-Menu/blob/master/README-MOBILE.md)**
+**For Android mobile users who don't have a PC, please read [README-MOBILE.md](https://github.com/springmusk026/Android-Mod-Menu-Kotlin/blob/master/README-MOBILE.md)**
 
 # Quick links
-- [Prerequisites](https://github.com/LGLTeam/Android-Mod-Menu/blob/master/README.md#prerequisites)
+- [Prerequisites](https://github.com/springmusk026/Android-Mod-Menu-Kotlin/blob/master/README.md#prerequisites)
 - [What you need](#what-you-need)
 - [Download/clone](#downloadclone)
 - [Video Tutorial](#video-tutorial)
@@ -57,7 +57,7 @@ Before we can jump head first into working a template, we need to go over a few 
 # Download/Clone
 Download this repo as ZIP, or clone using any git tools
 
-Or download Releases here https://github.com/LGLTeam/Android-Mod-Menu/releases
+Or download Releases here https://github.com/springmusk026/Android-Mod-Menu-Kotlin/releases
 
 Extract the source to your desired location. The location must **NOT** contain any spaces or symbols
 
@@ -85,18 +85,18 @@ After it's done, you can start working!
 
 # Files to work with and making changes
 
-#### **modmenu/Logcat.java**
+#### **modmenu/Logcat.kt**
 To save and clear logcat on menu settings without root and without file permission. Can be helpful for modders to diagnose the issues
 
 Android 11: /storage/emulated/0/Documents/Mod Menu logs/
 
 Android 10 and below: /storage/emulated/0/Android/data/(package name)/files/Mod Menu logs
 
-#### **modmenu/Preferences.java**
+#### **modmenu/Preferences.kt**
 
 Saving the menu feature preferences and calling changes via JNI
 
-#### **modmenu/FloatingModMenuService.java**
+#### **modmenu/FloatingModMenuService.kt**
 
 Main codes of floating mod menu design
 
@@ -149,7 +149,7 @@ LinearLayoutExample.addView(textView);
 
 While we can't explain much here, you can use Google. Search like `create a textview programmatically android`, `create a button programmatically android` etc. for more infomation
 
-#### **MainActivity.java**
+#### **MainActivity.kt**
 
 The Main Activity. Checks if device running Android 6.0 or above and if have overlay permission enabled before starting menu service.
 
@@ -497,7 +497,7 @@ See: https://github.com/LGLTeam/Android-Studio-Solutions/wiki
 
 ### How to get older version of the template? or how to see updates/commits?
 
-Go to the commit page https://github.com/LGLTeam/Android-Mod-Menu/commits/master
+Go to the commit page https://github.com/springmusk026/Android-Mod-Menu-Kotlin/commits/master
 
 ### Why can't you just add the feature I want? For example closing animation?
 
