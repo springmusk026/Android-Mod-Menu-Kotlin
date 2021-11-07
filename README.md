@@ -1,3 +1,6 @@
+
+**Base Credits to LGLTeam**
+
 **WARNING: THIS TEMPLATE IS NOT FOR NEWBIES, THIS IS FOR EXPERIENCES PROGRAMMERS ONLY. NEWBIES SHOULD NOT PROCEED TO TRY IT**
 
 **This won't cover how to mod games in general, hooking functions, etc that every other online tutorial already covers. This template simply tells you how to use them**
