@@ -8,7 +8,7 @@
 **For Android mobile users who don't have a PC, please read [README-MOBILE.md](https://github.com/springmusk026/Android-Mod-Menu-Kotlin/blob/master/README-MOBILE.md)**
 
 # Quick links
-- [Prerequisites](https://github.com/springmusk026/Android-Mod-Menu-Kotlin/blob/master/README.md#prerequisites)
+- [Prerequisites](#prerequisites)
 - [What you need](#what-you-need)
 - [Download/clone](#downloadclone)
 - [Video Tutorial](#video-tutorial)
